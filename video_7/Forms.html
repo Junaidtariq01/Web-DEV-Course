@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms </title>
+
+</head>
+<body>
+    <h3>Form to apply Teacher</h3>
+  <form action="post">
+    <div>
+        <label for="username">Enter your username</label>
+        <input type="text" required id="username" name="username" placeholder="Enter your username" autofocus>
+    </div>
+    <br>
+    <div>
+        <input type="radio" id="male" name="Gender" value="male">
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="Gender" value="female">
+        <label for="female">female</label>
+    </div>
+    
+    <div>
+        <input type="checkbox" id="sub" name="Accept terms and condd" value="yes">
+        <label for="sub">Accept terms and condd</label>
+    </div>
+
+    <div>
+        <label for="comm">Enter any text:</label> <br>
+        <textarea name="comment" id="comm" rows="3" cols="35" placeholder="text ....." autofocus ></textarea>
+    </div>
+
+
+    <div>
+        <label for="Fruits">Select a Fruit</label>
+        <select name="Fruits" id="">
+            <option value="Apple">Apple</option>
+            <option value="banana">Banana</option>
+            <option value="Pear">Pear</option>
+    </select>
+    </div>
+
+
+
+
+
+  </form>
+ <script>src="script.js"</script>
+</body>
+</html>

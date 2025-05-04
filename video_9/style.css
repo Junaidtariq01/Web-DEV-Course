@@ -1,0 +1,13 @@
+
+
+.red{       /*class*/
+    color:red
+}
+
+
+#first{     /*ID*/
+     background-color: aquamarine;
+}
+#second{
+    background-color: rgb(164, 104, 104);
+}
