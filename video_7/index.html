@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+
+</head>
+<body>
+    <h3>Form for salary class4th</h3>
+    <h5>monthy salary 50k</h5>
+<form action="post">
+    <div>
+        <label for="user">Enter your Username</label>
+    <input type="text" required id="user" placeholder="Enter username">
+    </div>
+    <br>
+    <label for="Gender">Select your Gender :</label>
+    <div>
+        <label for="male">Male</label>
+        <input type="radio" id="male" value="male" name="Gender">
+        <label for="female">Female</label>
+        <input type="radio" id="female" value="female" name="Gender">
+        <label for="other">Others+</label>
+        <input type="radio" id="other" value="other" name="Gender">
+    </div>
+    <br>
+    <div>
+        <input type="checkbox" name="terms" value="YES">
+        <label for="terms">I accept I obey your orders</label>
+    </div>
+    <br>
+    <div>
+        <label for="comm">Any suggestion for </label> <br>
+        <textarea name="comment" id="comm" rows="3" cols="35" placeholder="text ....." autofocus ></textarea>
+    </div>
+
+</form>  
+ <script>src="script.js"</script>
+</body>
+</html>

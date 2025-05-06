@@ -1,0 +1,32 @@
+*{
+    background-color: antiquewhite;
+}
+table, td, th{
+    border: 1px,solid;
+}
+
+table{
+    width: 100%;
+}
+
+th{
+    height: 30px;
+}
+td{
+    text-align: center;
+}
+
+li{
+   display: inline; 
+}
+li{
+    float: left;
+}
+a{
+    display: block;
+    padding: 10px;
+    background-color: rgb(200, 154, 90);
+}
+ul{
+    background-color: rgb(26, 21, 14);
+}
