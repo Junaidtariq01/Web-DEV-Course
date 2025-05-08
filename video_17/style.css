@@ -1,0 +1,18 @@
+*{
+    background-color: bisque;
+}
+ .open{ /*class selector */
+    color: blueviolet;
+}
+/* Id Selector */
+ #net{
+    color: #b60808;
+}
+/* child selector */
+span > p {
+color: rgb(69, 154, 43);
+}
+/* Descedent selector */
+div p{
+background-color: azure;
+}
