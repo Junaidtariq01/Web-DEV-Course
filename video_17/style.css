@@ -16,3 +16,17 @@ color: rgb(69, 154, 43);
 div p{
 background-color: azure;
 }
+
+/* psecho */
+a:visited{
+color: yellow;
+}
+a:link{
+    color: rgb(43, 226, 76);
+}
+a:active{
+    background-color: rgb(18, 244, 241);
+}
+a:hover{
+    background-color: #b608b0;
+}
