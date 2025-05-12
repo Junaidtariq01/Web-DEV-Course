@@ -1,0 +1,19 @@
+*{
+    background-color: bisque;
+}
+.box{
+    background-color: aquamarine;
+}
+.box1{
+    color: violet;
+    padding: 12px;
+    margin: 4px;
+    border: 2px solid brown;
+}
+.box2
+{
+    color: steelblue;
+    padding: 12px;
+    margin: 3px;
+    border: 9px solid rgb(66, 205, 66);
+}
