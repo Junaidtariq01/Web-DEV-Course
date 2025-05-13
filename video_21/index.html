@@ -3,12 +3,36 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CSS</title>
-    <link rel="stylesheet" href="style.css">
-
+    <title>CSS Specificity</title>
+    <!-- <link rel="stylesheet" href="style.css"> -->
+    <script>src="script.js"</script>
+    <style>
+        h3{
+            color: aqua;
+        }
+        .yellow{
+            color: yellow;
+        }
+        .cred{
+            color:firebrick;
+        }
+        h4.cred{ /* more value than cpink */
+            color: rgb(0, 0, 0);
+        }
+        .cpink{
+            color:fuchsia;
+        }
+        [data-x="new"]{
+            background-color: rgba(100, 148, 237, 0.823);
+        }
+    </style>
 </head>
 <body>
- 
- <script>src="script.js"</script>
+    <!-- order of specificity is :
+    !important key > inline > ID selector > class/attribute > Element > Universal -->
+ <h3> This is the test line.</h3>
+<div>
+    <h4 class="yellow cred cpink" data-x="new">Let's begin with specificity</h4>
+</div>
 </body>
 </html>

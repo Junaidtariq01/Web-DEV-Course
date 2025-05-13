@@ -1,0 +1,30 @@
+
+th, td{
+    border: 1px,solid;
+}
+
+table{
+    width: 50%;
+    
+}
+
+th{
+    height: 40px;
+    text-align: center;
+    padding: 9px;
+}
+
+td {
+    text-align: center;
+    padding: 20px;
+}
+
+.sun{
+    color: red;
+    text-decoration: underline;
+
+}
+
+.roo{
+    background-color: rgb(187, 117, 241);
+}
